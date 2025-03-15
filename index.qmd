@@ -1,0 +1,21 @@
+---
+title: "À propos de moi"
+---
+
+Je suis un passionné de programmation en R, de cuisine et d'artisanat. 
+
+
+## Mon CV
+
+Vous pouvez consulter mon [CV ici](https://clement-lvd.github.io/CV/.html).
+
+## Mes photos Instagram
+
+Voici quelques photos partagées sur Instagram, si tu t'intéresses à mon alimentation du quotidien.
+
+<iframe src="https://www.instagram.com/dishes_and_crafts/embed" width="100%" height="600px"></iframe>
+
+```{r instagram_feed, echo=FALSE}
+
+```
+
