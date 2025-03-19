@@ -17,8 +17,5 @@ Voici quelques photos partagées sur Instagram de mon alimentation du quotidien,
 
 <iframe src="https://www.instagram.com/dishes_and_crafts/embed" width="100%" height="600px"></iframe>
 
-## Mes créations d'artisanat
-La première fois que j'ai mis les mains dans le ciment, c'était en 2008. Voici quelques photos des 'chantiers' que j'ai au compteur :
 
-[wip]
 
