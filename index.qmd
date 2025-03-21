@@ -2,13 +2,17 @@
 title: "À propos de moi"
 ---
 
-Je suis Clément et cette page présente mon univers : j'aime l'analyse de données et la programmation, mais aussi la cuisine et l'artisanat.
+Je suis Clément et j'aime l'analyse de données et la programmation, mais aussi la cuisine et l'artisanat.
 
 ## Mon CV
 J'ai un [CV en ligne](https://clement-lvd.github.io/CV) et un [CV en .pdf](https://github.com/Clement-LVD/CV/blob/main/CV_Clement_LVD.pdf).
 
 ## Projets perso de programmation
-Je suis passionné d'analyses de données. Par exemple, en 2025, j'ai fait un package de R pour accompagner l'activité de programmation : [**codexplor**](https://clement-lvd.github.io/codexplor). C'est une aide précieuse pour révéler des faiblesses d'un projet de programmation, afin de les corriger au fur-et-à-mesure du développement. 
+En 2025, j'ai fait un package de R pour accompagner l'activité de programmation : [**codexplor**](https://clement-lvd.github.io/codexplor). 
+
+<iframe style="height:250px; width:700px;" src="https://clement-lvd.github.io/codexplor"></iframe>
+
+---
 
 ## Ma cuisine
 J'essaye de cuisiner presque tous les jours. 
