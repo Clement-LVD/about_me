@@ -17,6 +17,7 @@ knitr::kable(myself)
 
 ```
 
+## Projets github publics
 
 ```{r echo = F}
 ## Repos public github
@@ -30,23 +31,6 @@ knitr::kable(tablee )
 ```
 
 ---
-
-<style>
-.separateur {
-  border-right: 2px solid green;
-  padding-right: 10px;
-}
-
-
-.arriere-plan {
-  background-color: #f0f0f0; /* Gris clair */
-  padding: 10px;
-  border-radius: 5px;
-}
-
-</style>
-
-## Projets perso récents
 
 ### Cuisine & créations
 J'essaye de cuisiner presque tous les jours et je réalise divers objets, généralement en menuiserie. 
