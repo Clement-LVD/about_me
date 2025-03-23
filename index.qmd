@@ -9,12 +9,24 @@ Je suis Clément et j'aime l'analyse de données et la programmation, mais aussi
 ```{r echo = F}
 
 myself <- data.frame(Parcours = "[CV en .pdf](https://github.com/Clement-LVD/CV/blob/main/CV_Clement_LVD.pdf)"
-           , Programmation = "[Repo github](https://github.com/Clement-LVD)"
+           , Programmation = "[Repos github publics](https://github.com/Clement-LVD)"
            , Universitaire = "[Profil researchgate](https://www.researchgate.net/profile/Clement-Laverdet)"
            )
 
 knitr::kable(myself)
 
+```
+
+
+```{r echo = F}
+## Repos public github
+
+repos <- readLines(warn = F, "https://api.github.com/users/Clement-LVD/repos")
+repos <- jsonlite::fromJSON(repos)
+
+links <- paste0( "[", repos$name, "](", repos$svn_url, ")" )
+tablee <- data.frame(  repos = links, description = repos$description  )
+knitr::kable(tablee )
 ```
 
 ---
@@ -34,7 +46,7 @@ knitr::kable(myself)
 
 </style>
 
-## Projets perso
+## Projets perso récents
 
 ::: {.grid}
 
@@ -54,9 +66,9 @@ Voici la vignette principale de ce projet :
 <!-- This column takes 2/3 of the page -->
 
 ### Cuisine & créations
-J'essaye de cuisiner presque tous les jours et j'ai réalisé des centaines d'objets. 
+J'essaye de cuisiner presque tous les jours et je réalise divers objets, généralement en menuiserie. 
 
-Voici des photos de mon alimentation du quotidien et de quelques-unes de mes réalisations récentes, sans prétention.
+Voici des photos de mon alimentation du quotidien, sans prétention.
 
 <iframe src="https://www.instagram.com/diners_quotidiens/embed" width="100%" height="600px"></iframe>
 :::
