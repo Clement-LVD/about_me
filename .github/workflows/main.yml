@@ -1,0 +1,30 @@
+name: Render README.qmd
+
+on:
+  push:
+    branches:
+      - main  # Ou ta branche principale
+  workflow_dispatch:  # Permet de lancer manuellement
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render README.qmd
+        run: |
+          quarto render README.qmd --to gfm  # Génère README.md en Markdown
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Auto-update README.md from README.qmd" || echo "No changes to commit"
+          git push
