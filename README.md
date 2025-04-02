@@ -6,9 +6,11 @@ aussi la cuisine et l’artisanat.
 
 ## Profils en ligne
 
-| Parcours | Programmation | Universitaire |
-|:---|:---|:---|
-| [CV en .pdf](https://github.com/Clement-LVD/CV/blob/main/CV_Clement_LVD.pdf) | [Repos github publics](https://github.com/Clement-LVD) | [Profil researchgate](https://www.researchgate.net/profile/Clement-Laverdet) |
+|  |  |
+|:---|:---|
+| Parcours | [CV en .pdf](https://github.com/Clement-LVD/CV/blob/main/CV_Clement_LVD.pdf) |
+| Programmation | [Repos github publics](https://github.com/Clement-LVD) |
+| Universitaire | [Profil researchgate](https://www.researchgate.net/profile/Clement-Laverdet) |
 
 ## Projets github publics
 
