@@ -12,13 +12,13 @@ aussi la cuisine et l’artisanat.
 
 ## Projets github publics
 
-|  | repos | description |
-|:---|:---|:---|
-| 5 | [financr](https://github.com/Clement-LVD/financr) | R package : get various financial datas |
-| 4 | [CV](https://github.com/Clement-LVD/CV) | CV of C. LVD |
-| 3 | [codexplor](https://github.com/Clement-LVD/codexplor) | R package : assess & monitor programming projects with standardized metrics |
-| 2 | [bricolR](https://github.com/Clement-LVD/bricolR) | R functions : math’ & calc’ on various house renovation problematics |
-| 1 | [about_me](https://github.com/Clement-LVD/about_me) | A single page about me, myself and I |
+| repos | description |
+|:---|:---|
+| [financr](https://github.com/Clement-LVD/financr) | R package : get various financial datas |
+| [CV](https://github.com/Clement-LVD/CV) | CV of C. LVD |
+| [codexplor](https://github.com/Clement-LVD/codexplor) | R package : assess & monitor programming projects with standardized metrics |
+| [bricolR](https://github.com/Clement-LVD/bricolR) | R functions : math’ & calc’ on various house renovation problematics |
+| [about_me](https://github.com/Clement-LVD/about_me) | A single page about me, myself and I |
 
 ------------------------------------------------------------------------
 
