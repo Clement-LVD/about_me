@@ -30,7 +30,7 @@ tablee <- data.frame(  repos = links, description = repos$description  )
 
 tablee <- tablee[order(tablee$repos, decreasing = T),]
 
-knitr::kable(tablee )
+knitr::kable(tablee , row.names = F)
 ```
 
 
