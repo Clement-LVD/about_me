@@ -13,7 +13,7 @@ myself <- data.frame(Parcours = "[CV en .pdf](https://github.com/Clement-LVD/CV/
            , Universitaire = "[Profil researchgate](https://www.researchgate.net/profile/Clement-Laverdet)"
            )
 
-knitr::kable(myself)
+knitr::kable(t(myself))
 
 ```
 
