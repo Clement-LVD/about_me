@@ -29,11 +29,15 @@ jobs:
       - name: Render README.qmd
         run: |
           quarto render README.qmd --to gfm
+          quarto render README.qmd --to html
+
+      - name: Copy README.html to index.html
+        run: cp README.html index.html
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add README.md
-          git commit -m "Auto-update README.md from README.qmd" || echo "No changes to commit"
+          git add README.md index.html
+          git commit -m "Auto-update README.md and index.html from README.qmd" || echo "No changes to commit"
           git push
