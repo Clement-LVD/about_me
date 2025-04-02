@@ -19,7 +19,7 @@ knitr::kable(myself)
 
 ## Projets github publics
 
-```{r echo = F}
+```{r echo=F}
 ## Repos public github
 
 repos <- readLines(warn = F, "https://api.github.com/users/Clement-LVD/repos")
@@ -27,6 +27,9 @@ repos <- jsonlite::fromJSON(repos)
 
 links <- paste0( "[", repos$name, "](", repos$svn_url, ")" )
 tablee <- data.frame(  repos = links, description = repos$description  )
+
+tablee <- tablee[order(tablee$repos, decreasing = T),]
+
 knitr::kable(tablee )
 ```
 
